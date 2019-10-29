@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">Task List</string>
+    <string name="dialogNewTitulo">New task</string>
+    <string name="dialogEditTitulo">Edit Task</string>
+    <string name="hintText">Add your Task...</string>
+
+    <string name="novo">New Task</string>
+    <string name="editar">Edit Task</string>
+    <string name="atualizar">Update</string>
+    <string name="salvar">Save</string>
+    <string name="cancelar">Cancel</string>
+    <string name="toastTarefa">Add a task!</string>
+
+    <string name="excluir">Delete Task</string>
+    <string name="excluirTudo">Delete All Tasks</string>
+    <string name="tituloOpcao">Choose an Option</string>
+    <string name="toastErro">Error loading action</string>
+
+</resources>

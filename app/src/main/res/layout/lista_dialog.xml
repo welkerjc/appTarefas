@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:orientation="vertical">
+
+    <TextView
+            android:text="@string/dialogNewTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/dialogTitle" android:textStyle="bold"
+            android:textSize="@dimen/dialog_title_fontsize" android:fontFamily="sans-serif-light"
+            android:lineSpacingExtra="@dimen/fab_margin" android:textColor="@color/colorPrimaryText"
+            android:background="@color/colorPrimaryDark" android:layout_marginBottom="@dimen/layout_margin"
+            android:padding="@dimen/layout_margin"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/dialogText" android:layout_margin="@dimen/layout_margin"
+            android:background="@color/colorBackground" android:fontFamily="sans-serif-light" android:gravity="top"
+            android:hint="@string/hintText" android:singleLine="false" android:lines="4"
+            android:padding="@dimen/activity_margin" android:textSize="@dimen/dialog_input_fontsize"
+            android:textColorHint="@color/colorPrimaryText"/>
+</LinearLayout>

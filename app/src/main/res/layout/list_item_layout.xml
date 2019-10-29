@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/dataAtual" android:layout_marginTop="@dimen/layout_margin"
+            android:layout_marginStart="@dimen/layout_margin" android:layout_marginEnd="@dimen/layout_margin"
+            android:layout_marginBottom="@dimen/layout_margin" android:textAlignment="textEnd"
+            android:textColor="@color/colorAccent" android:textSize="@dimen/list_item_fontsize"
+            android:fontFamily="sans-serif-smallcaps"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/texto" android:layout_below="@id/dataAtual"
+            android:fontFamily="sans-serif-smallcaps" android:layout_marginTop="@dimen/layout_margin"
+            android:layout_marginStart="@dimen/layout_margin" android:layout_marginEnd="@dimen/layout_margin"
+            android:layout_marginBottom="@dimen/layout_margin" android:textColor="@color/colorPrimaryText"
+            android:textSize="@dimen/list_item_fontsize" android:paddingStart="@dimen/layout_margin"/>
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp" android:id="@+id/view" android:layout_marginTop="@dimen/item_margin"
+            android:layout_marginBottom="@dimen/layout_margin" android:background="@color/colorBackground"/>
+</RelativeLayout>
